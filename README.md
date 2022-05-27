@@ -1,3 +1,7 @@
+
+# Using the Adafruit FT232H with luma-oled on SSD1322
+
+## how to wire
 <div align="center">
   <img src="wiring.jpg"><br>
 </div>
