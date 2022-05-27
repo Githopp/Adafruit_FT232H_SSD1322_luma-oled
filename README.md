@@ -1,4 +1,7 @@
-from luma.oled.device import ssd1322
+<div align="center">
+  <img src="wiring.jpg"><br>
+</div>
+
 from luma.core.render import canvas
 from luma.core.interface import serial
 
