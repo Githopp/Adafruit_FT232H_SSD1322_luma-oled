@@ -2,7 +2,7 @@ from luma.oled.device import ssd1322
 from luma.core.render import canvas
 from luma.core.interface import serial
 
-serial_interface = serial.ftdi_spi(device='ftdi://ftdi:232h:1/1', bus_speed_hz=16000000,  gpio_CS=3, gpio_DC=6, gpio_RST=4,reset_hold_time=0, reset_release_time=0)
+serial_interface = serial.ftdi_spi(device='ftdi://ftdi:232h:1/1', bus_speed_hz=16000000,  gpio_CS=3, gpio_DC=4, gpio_RST=5,reset_hold_time=0, reset_release_time=0)
 
 device = ssd1322(serial_interface, rotate=2)
 
